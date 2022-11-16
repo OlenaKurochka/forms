@@ -1,0 +1,48 @@
+:root{
+    font-size: 10px;
+  }
+  
+  body{
+    max-width: 320px;
+    border: 1px solid yellow;
+    padding: 1rem;
+  }
+  section p{
+    font-size: 1.5rem;
+  }
+
+  section p span{
+    font-size: 1rem;
+    color: gray;
+  }
+
+  section>p span{
+    font-size: 1rem;
+    color: red;
+  }
+
+  .streetInRegion, .numberOfBuilding{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    padding: .5rem;
+  }
+  
+ input{
+    height: 2.5rem;
+  }
+  
+  .button{
+    height: 4rem;
+    display: flex;
+  }
+  
+  .button input {
+    border: 1px solid blue;
+    border-radius: 5px;
+    height: 4rem;
+  }
+  
+  
+  
